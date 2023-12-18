@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  background-color: #EFD0CA;
+}
+
+.elemento {
+  width: 50%;
+}
+
+header {
+  background-color: #4E6766;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  margin-right: 15px;
+}
+
+.Home h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 48px;
+  max-width: 100%;
+  padding: 5%;
+}
+
+.font {
+  font-size: 20px;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  max-width: 100%;
+  padding-top: 0%;
+  padding-left: 5%;
+}
+
+.esempi {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+  font-weight: bold;
+  padding-top: 0%;
+  padding-right: 5%;
+}
+
+#logo1 {
+  width: 100px;
+  height: auto;
+}
+
+.scritta1,
+.scritta2,
+.scritta3,
+.scritta4 {
+  text-align: center;
+  margin: auto;
+}
+
+.titolo {
+  text-align: center;
+}
+
+#illustratore {
+  margin-top: 350px;
+  margin-left: 100px;
+}
+
+.testo1 {
+  margin-left: 35%;
+  margin-top: -300px;
+  width: 500px;
+}
+
+.testo2 {
+  text-align: center;
+  margin-top: 250px;
+}
+
+#manifesto {
+  margin-top: 200px;
+  margin-left: 25%;
+}
+
+.testo3 {
+  text-align: center;
+  margin-top: 100px;
+  line-height: 1.4;
+  margin: 0;
+  margin-bottom: 1.4rem;
+}
+
+.titolo3 {
+  text-align: center;
+}
+
+#codice,
+#harry,
+.sc1,
+.sc2,
+#log,
+.sc3 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#codice {
+  margin-top: 150px;
+}
+
+.sc1 {
+  margin-top: -250px;
+  margin-left: 350px;
+}
+
+.sc2 {
+  margin-left: 690px;
+  margin-top: 280px;
+  width: 350px;
+}
+
+#log {
+  margin-top: -100px;
+ margin-left: 360px;
+}
+
+.sc3 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.footer {
+  background-color: #4E6766;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy {
+  margin: 0 auto;
+  width: 90%;
+  margin-top: -300px;
+  color: white;
+}
+
+.copy p {
+  font-size: 15px;
+  text-align: center;
+  width: 90%;
+  padding-top: 240px;
+}
+
+@media screen and (max-width: 768px) {
+  .elemento {
+    width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header ul {
+    margin-top: 10px;
+  }
+
+  header ul li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .Home h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 48px;
+    max-width: 100%;
+    padding: 5%;
+  }
+  
+  .font {
+    font-size: 20px;
+    margin: auto;
+    font-weight: bold;
+    text-align: center;
+    max-width: 100%;
+    padding-top: 0%;
+    padding-left: 5%;
+  }
+  
+  .esempi {
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    font-weight: bold;
+    padding-top: 0%;
+    padding-right: 5%;
+  }
+  
+  #logo1 {
+   size: 5px;
+
+  }
+  
+  .scritta1,
+  .scritta2,
+  .scritta3,
+  .scritta4 {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .titolo {
+    text-align: center;
+  }
+  
+  #illustratore {
+    margin-top: 350px;
+  }
+  
+  .testo1 {
+    margin-left: 400px;
+    margin-top: -300px;
+    width: 250px;
+  }
+  
+  .testo2 {
+    text-align: center;
+    margin-top: 250px;
+  }
+  
+  #manifesto {
+    margin-top: 200px;
+   
+  }
+  
+  .testo3 {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 1.4rem;
+  }
+  
+  .titolo3 {
+    text-align: center;
+  }
+  
+  #codice,
+  #harry,
+  .sc1,
+  .sc2,
+  #log,
+  .sc3 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  #codice {
+    margin-top: 150px;
+  }
+  
+  .sc1 {
+    margin-top: -250px;
+    margin-left: 350px;
+  }
+  
+  .sc2 {
+    margin-left: 390px;
+    margin-top: 280px;
+    width: 150px;
+  }
+  
+  #log {
+    margin-top: -100px;
+   margin-left: 60px;
+  }
+  
+  .sc3 {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .footer {
+    background-color: #4E6766;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .copy {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: -300px;
+    color: white;
+  }
+  
+  .copy p {
+    font-size: 15px;
+    text-align: center;
+    width: 90%;
+    padding-top: 240px;
+  }
+}
+  
